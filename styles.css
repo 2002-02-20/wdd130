@@ -1,0 +1,39 @@
+header nav{
+    padding: 10px;
+}
+nav a{
+    padding: 0px 10px;
+}
+
+.text_content{
+    margin:  5px;
+    border: 1px rgb(173, 173, 173) solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(248, 236, 220);
+    color: rgb(54, 54, 141)
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+main img{
+    width: 150px;
+    height: auto;
+    border-radius: 50px;
+}
+
+p{
+    padding: 0;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+
