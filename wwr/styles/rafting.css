@@ -18,7 +18,17 @@ body {
 }
 
 header {
-    padding: 20px 0;
+    display: flex;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items:center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    
 }
 
 nav a {
@@ -40,9 +50,6 @@ p {
     font-size: 1.2em;
     line-height: 1.6;
 }
-
-
-
 .hero {
     position: relative;
     width: 100%;
@@ -82,23 +89,82 @@ p {
 }
 
 
-footer {
+.history{
+    margin: 20px 0;
+    display: flex;
+
+}
+  
+.history h2{
+    display: block;
+    justify-content: center;
+    display: flex;
+
+}
+
+.history div{
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;   
+}
+
+.history p{
+    padding: 45px 15px;
+    width: 100%;
+}
+
+.adventure{
+    max-width: 100%;
+    display: block;
+    justify-content: space-around;
+}
+.adventure h2{
+    display: block;
+    justify-content: center;
+    display: flex;
+}
+
+.adventure div{
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+}
+
+
+.adventure img{
+    width: 210px;
+    height: 150px;
     
+}
+.adventure figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+footer {
     color: var(--accent1-color);
     padding: 20px;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
 }
 
 footer p {
-    margin: 0;
+    color: var(--primary-color);
+}   
+
+footer div{
+    position: absolute;
+    right: 100px;
 }
 
-footer a {
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer a img {
+footer img {
     width: 30px;
     height: auto;
+    padding: 0 5px;
 }
